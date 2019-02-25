@@ -1,0 +1,87 @@
+/* -- Variables */
+:root{
+    --primary :   -webkit-linear-gradient(left, #4E1C7B, #120E62)  ;
+    
+}
+
+
+nav {
+    background: var(--primary)
+}
+
+main {
+    background: url('/img/17296.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+
+    
+
+}
+
+/* LOGIN */
+ #top-link > div > a:hover {
+    text-decoration: none;
+    color: white;
+ }
+
+  #top-link > div > a {
+    
+    color: rgba(255,255,255,.5);
+ }
+
+ #top-link {
+     background : -webkit-linear-gradient(left, #4E1C7B, #120E62);
+     border-top-left-radius: 8px;
+     border-top-right-radius: 8px;
+
+ }
+
+  #conLogin {
+    width: 25%;
+    box-shadow: 5px 10px 40px rgba(0,0,0,.4);
+    border-radius: 9px;
+  }
+
+  #subLogin{
+     background : -webkit-linear-gradient(left, #4E1C7B, #120E62);
+     
+  }
+
+  #subLogin:hover {
+      box-shadow: 5px 10px 40px rgba(0,0,0,.4);
+  }
+
+  .input-email {
+      width: 100%;
+      display: block;
+      border: none;
+      /* border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom-color: #888888; */
+  }
+
+#singIn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 33px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+}
+
+/* MEDIAS */
+
+@media only screen and (max-width: 1378px) {
+  #conLogin {
+    width: 90%;
+  }
+}
